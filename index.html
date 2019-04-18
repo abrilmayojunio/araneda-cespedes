@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">  <!-- caracteres -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  <!--comportate internet explorer viejito-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- en todo dispositivo usa toda la pantalla posible-->
+    <title>*ratas de alcantarilla*</title>  <!-- encabezado de pestaña -->
+    <meta name="title" content="ratas de alcantarilla">  <!-- para que me busquen -->
+    <link rel="icon" type="image/png" href="media/pixelavatar96jk.png" />  <!-- rel es relación/ href lo cambio por la imagen que quiera, imagen de 200x200 pequeño -->
+    <!-- Metadatos Genéricos -->
+    <meta name="description" content="a las ratas les gusta dormir con mantitas "> <!-- las *descripción* cpn crtl shift f se reeemplaza todas las descripciones-->
+    <meta name="image" content="*cambiar por una URL de la imagen en línea*">
+    <!-- Metadatos para Schema.org for Google -->
+    <meta itemprop="name" content="ratas de alcantarilla">
+    <meta itemprop="description" content="a las ratas les gusta dormir con mantitas ">
+    <meta itemprop="image" content="*cambiar por una URL de la imagen en línea*">
+    <!-- Metadatos para Twitter -->
+    <meta name="twitter:card" content="summary"> <!-- no se cambia -->
+    <meta name="twitter:title" content="*nombre*">
+    <meta name="twitter:description" content="a las ratas les gusta dormir con mantitas ">
+    <meta name="twitter:image" content="*cambiar por una URL de la imagen en línea*"> <!-- unico tip del profe-->
+    <!-- Metadatos para Open Graph general (Facebook y Pinterest) -->
+    <meta name="og:title" content="*nombre*">
+    <meta name="og:description" content="a las ratas les gusta dormir con mantitas ">
+    <meta name="og:image" content="*cambiar por una URL de la imagen en línea*">  <!-- image para tener una previlsualizacion cuando se envía vinculo no es favicon-->
+    <meta name="og:locale" content="es_CL"> <!--no se cambia -->
+    <meta name="og:type" content="website"> <!--no se cambia-->
+    <!-- Ahora vinculamos el estilo -->
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+</head>
+
+<body>
+    <div id="contenido">
+        <header>
+            <h1>ratitas</h1> <!-- encabezado de primer nivel -->
+            <h2>a las ratas les gusta dormir con mantitas </h2> <!--encabezado de segundo nivel recomendado poner la descripcion de os meta datos-->
+        </header>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">  <!--no modificar -->
+            <source src="media/wasdfghjkl.mp4" type="video/mp4"> <!--aqui cambiamos el video que esta en media, solo en source type no se toca-->
+            <source src="media/video.ogg" type="video/ogg"> <!-- archivo extra para los que no puedan ver mp4-->
+        </video>
+
+        <h3>quienes somos? SOMOS LAS MÁS BACANAS</h3> <!-- se modifica -->
+        <div id="somos">
+
+            <div class="dupla primera"> <!-- se modifica -->
+                <h4>Abril Araneda</h4>
+                <h5>Slogan personal winner</h5>
+                <p>aiura.</p>
+                <address><a href="mailto:agaraneda@uc.cl">agaraneda@uc.cl</a></address> <!-- primer mail te redirecciona el segundo es el texto visible -->
+            </div>
+
+            <div class="dupla segunda"><!-- se modifica -->
+                <h4>NOMBRE APELLIDO</h4>
+                <h5>Slogan personal winner</h5>
+                <p>Suspendisse dapibus aliquam lorem ac congue.</p>
+                <address><a href="mailto:mail@mail.com">mail@mail.com</a></address>
+            </div>
+
+            <hr />
+        </div><!-- acá cerramos el div id="somos"-->
+
+        <h3>PORTAFOLIO</h3>
+
+        <div id="portafolio">
+
+            <!--acá se colocan y organizan las cosas con programación // JAVASCRIPT-->
+
+        </div><!-- acá cerramos el div id="portafolio"-->
+
+        <footer>
+            <p>Procesos de Producción · sección web · primer semestre · 2019 ·hecho con lágrimas</p>
+        </footer>
+
+    </div><!-- acá abajo cerramos el div id="contenido"-->
+
+    <!-- Lo que sigue SI es PROGRAMACIÓN -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <script>
+        // ESTO SIRVE PARA ARREGLAR CADA ÍTEM DEL PORTAFOLIO COMO ALBAÑILERÍA (MASONRY)
+        window.onload = function() {
+            var container = document.querySelector('#portafolio');
+            var msnry = new Masonry(portafolio, {
+                itemSelector: '.item'
+            });
+        };
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="portafolio.js"></script>
+</body>
+
+</html>
