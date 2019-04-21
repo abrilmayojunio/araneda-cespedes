@@ -10,8 +10,8 @@ var trabajos = [
     about: "Nulla pretium non sapien eget fermentum",
 }, {
     figure: "media/reta.gif",
-    title: "🐈🐀 RETA: Reciclaje Eficiente y Transporte de Agua",
-    about: "Sistema de reciclaje de agua en contexto de emergencia en el hogar." ,
+    title: "🐈🐀 RETA",
+    about: "RETA: Reciclaje Eficiente y Transporte de Agua, es unn sistema de reciclaje de agua en contexto de emergencia en el hogar." ,
 
 
 }, {

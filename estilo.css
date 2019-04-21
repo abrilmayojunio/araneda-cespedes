@@ -20,6 +20,18 @@ body{
 	background:#FFFFFD
 	color:#FFFE00 ;
 }
+/* Para Safari */
+::selection {
+	background: #FFE9F1;
+	color: #FF005D;
+}
+
+/* Para Firefox */
+::-moz-selection {
+	background: #FFE9F1;
+	color: #FF005D;
+}
+}
 
 h1, h2, h3, h4{
 	font-weight:500;
@@ -49,7 +61,7 @@ h3{
 	letter-spacing:0.4em;
 	color: #bababa;
 	text-align:center;
-	padding:1rem 0;
+	padding:6rem 0;
 
 
 }
@@ -71,6 +83,14 @@ h5{
 h5 span {
 	    background-color: #FFFFFD;
 	}
+h6{
+ font-family: 'Alegreya Sans SC', sans-serif:400;
+ font-size:1.5rem;
+ letter-spacing:0.4em;
+ color: #bababa;
+ text-align:center;
+ padding: 2% 10% 5% 10%;
+ }
 
 a{
 	color:#FF9D3A;
@@ -207,13 +227,13 @@ filter: brightness(0.6);
 }
 
 .item h4{
-	font-size:1em;
-	letter-spacing:0.025em;
+	font-size:1.2em;
+	letter-spacing:0.1em;
 	margin:5% 5% 3% 5%;
 }
 
 .item p{
-	font-size:0.875em;
+	font-size:0.96em;
 	letter-spacing:0.05em;
 	margin:2% 5% 6% 5%;
 }
