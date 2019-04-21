@@ -1,0 +1,336 @@
+
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
+@import url('https://fonts.googleapis.com/css?family=Schoolbell');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,100i,300,300i,400,400i,500,500i,700,700i,800,800i,900,900i');
+
+*{
+	margin:0;
+	padding:0;
+}
+/* Start http://www.cursors-4u.com */ * {cursor: url(http://cur.cursors-4u.net/symbols/sym-6/sym597.cur), auto !important;} /* End http://www.cursors-4u.com */*{}
+
+
+
+/* ALGUNAS DEFINICIONES GENÉRICAS */
+
+body{
+
+  font-family: 'Alegreya Sans SC', sans-serif;;
+
+	background:#FFFFFD
+	color:#FFFE00 ;
+}
+/* Para Safari */
+::selection {
+	background: #FFE9F1;
+	color: #FF005D;
+}
+
+/* Para Firefox */
+::-moz-selection {
+	background: #FFE9F1;
+	color: #FF005D;
+}
+}
+
+h1, h2, h3, h4{
+	font-weight:500;
+
+
+}
+
+h1{
+	font-family: 'Patrick Hand', cursive;
+	font-size:5rem;
+	letter-spacing:0.1em;
+	color:#414141;
+	text-align:center;
+
+}
+
+h2{
+	font-size:1.5rem;
+	letter-spacing:0.3em;
+	color:#414141;
+	text-align:center;
+}
+
+h3{
+  font-family: 'Alegreya Sans SC', sans-serif:100;
+	font-size:1.5rem;
+	letter-spacing:0.4em;
+	color: #bababa;
+	text-align:center;
+	padding:6rem 0;
+
+
+}
+h4{
+	font-family: 'Patrick Hand', cursive;
+  font-size:3rem;
+  letter-spacing:0.5em;
+  color:#414141;
+
+
+padding:1rem 0;}
+
+h5{
+	color: #FFE000;
+	font-size:1.2rem;
+	text-decoration:none;
+
+}
+h5 span {
+	    background-color: #FFFFFD;
+	}
+h6{
+ font-family: 'Alegreya Sans SC', sans-serif:400;
+ font-size:1.5rem;
+ letter-spacing:0.4em;
+ color: #bababa;
+ text-align:center;
+ padding: 2% 10% 5% 10%;
+ }
+
+a{
+	color:#FF9D3A;
+	text-decoration:none;
+	font-size:1.1rem;
+}
+a span {
+	    background-color: #FFFFFD;
+	}
+
+a:hover{
+		color:#FFE000;
+		text-decoration:none;
+	}
+
+p{
+	color: #BABABA;
+  font-size:1.1rem;
+	letter-spacing:0.1em;
+}
+
+p	span {
+	    background-color: #FFFFFD;
+	}
+
+
+
+/* COMENZAMOS CON LAS PARTES */
+
+#contenido{width:98%; margin:1%;}
+
+
+header{
+	width:98%;
+	top:36%;
+	position: absolute;
+	text-align:center;
+	z-index:9;
+	color:#BABABA;
+}
+
+video{
+	width:100%;
+	height:auto;
+}
+
+#somos{
+	width:100%;
+	background:#FFFFFD;
+	margin-bottom:2%;
+	}
+
+.dupla{
+	width:46%;
+	padding:2%;
+	float:left;
+	background-color:#FFFFFD;
+	}
+
+.primera{
+	min-height:300px;
+	text-align:left;
+	background-color:#FFFFFD;
+	background-image:url('media/catcat.png'); /* aquí ponemos nuestras fotos*/
+	background-position:top right;
+	background-repeat:no-repeat;
+	background-size:auto 100%;
+}
+.primera h4{padding: 2% 40% 1% 2%;}
+
+.primera h5{padding: 1% 40% 2% 2%; margin-bottom:5em; letter-spacing:0.1em;}
+
+.primera p{padding: 2% 40% 2% 2%;}
+
+.primera address{padding: 2% 40% 2% 2%; font-size:0.9em; font-style:normal;}
+
+.segunda{
+	min-height:300px;
+	text-align:right;
+	background-color:#FFFFFD;
+	background-image:url('media/abrilrat.png'); /* aquí ponemos nuestras fotos*/
+	background-position:top left;
+	background-repeat:no-repeat;
+	background-size:auto 100%;
+}
+
+.segunda h4{padding: 2% 2% 1% 40%;}
+
+.segunda h5{padding: 1% 2% 2% 40%; margin-bottom:5em; letter-spacing:0.1em;}
+
+.segunda p{padding: 2% 2% 2% 40%;}
+
+.segunda address{padding: 2% 2% 2% 40%; font-size:0.9em; font-style:normal;}
+
+#somos hr{
+	clear:both;
+	border:none;
+	}
+
+#portafolio{
+	width:100%;
+	padding-bottom:1%;
+	background:linear-gradient(to bottom,#FFFFFD, #eaeaea,#FFFFFD);
+}
+
+.item {
+	width:23%;
+	margin:1%;
+	color:#7B7B7B; /*color fuente de las casillas*/
+	background:#FFFFFD;
+	box-shadow:0 0 8px #BABABA /*original era negro*/
+}
+
+.item:hover{
+	cursor:crosshair;
+}
+
+.item figure{
+	overflow:hidden;
+}
+
+.item figure img{
+	width:100%;
+	height:auto;
+	margin-bottom:-4px;
+;
+}
+
+.item:hover figure img{
+	transform:scale(1.1);
+filter: blur( 1mm );
+transition:all ease-out 1s;
+filter: brightness(0.6);
+}
+
+.item h4{
+	font-size:1.2em;
+	letter-spacing:0.1em;
+	margin:5% 5% 3% 5%;
+}
+
+.item p{
+	font-size:0.96em;
+	letter-spacing:0.05em;
+	margin:2% 5% 6% 5%;
+}
+
+footer{
+	width:100%;
+	padding:4em 0 1em 0;
+	text-align:center;
+}
+
+footer p{
+	text-transform:full-width;
+	letter-spacing:0.1em;
+	font-size:1.1em;
+	color: #BABABA
+	}
+
+/* AJUSTES PARA QUE SE VEA BIEN EN DISTINTOS DISPOSITIVOS */
+
+@media screen and (orientation: portrait){
+
+	.dupla{
+		width:96%;
+		padding:2%;
+		float:left;
+	}
+
+}
+
+@media screen and (max-width: 992px){
+
+	header{top:24%;}
+
+}
+
+@media screen and (max-width: 768px){
+
+	header{top:12%;}
+	h1{top:12%;
+		font-size:2rem;}
+
+	h2{
+	font-size:1rem;
+	}
+
+	.item{
+		width:48%;
+		margin:1%;
+		background:#FFFFFD;
+		color:#BABABA;
+	}
+	h1{top:12%;
+		font-size:2rem;}
+
+	h2{
+	font-size:1rem;}
+
+  h3{	font-size:1rem}
+
+	h4{font-size:2rem}
+	.item p{font-size:0.75rem}
+
+	.primera h4{padding: 2% 40% 1% 2%;}
+
+	.primera h5{padding: 1% 40% 2% 2%; margin-bottom:5em; letter-spacing:0.1em;}
+
+	.primera p{padding: 2% 40% 2% 2%;}
+
+	.primera address{padding: 2% 40% 2% 2%; font-size:0.9em; font-style:normal;}
+
+	.segunda{
+		min-height:300px;
+		text-align:right;
+		background-color:#FFFFFD;
+		background-position:top left;
+		background-repeat:no-repeat;
+		background-size:auto 100%;
+	}
+
+	.segunda h4{padding: 2% 2% 1% 40%;}
+
+	.segunda h5{padding: 1% 2% 2% 40%; margin-bottom:5em; letter-spacing:0.1em;}
+
+	.segunda p{padding: 2% 2% 2% 40%;}
+
+	.segunda address{padding: 2% 2% 2% 40%; font-size:0.9em; font-style:normal;}
+	}
+
+@media screen and (max-width: 576px){
+
+	header{top:2%;}
+
+	.item{
+		width:96%;
+		margin:2%;
+		background:#FFFFFD;
+		color:#BABABA;
+	}
+
+}

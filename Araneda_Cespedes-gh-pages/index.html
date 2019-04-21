@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">  <!-- caracteres -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  <!--comportate internet explorer viejito-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- en todo dispositivo usa toda la pantalla posible-->
+    <title>Small yet Talented</title>  <!-- encabezado de pestaña -->
+    <meta name="title" content="small yet talented">  <!-- para que me busquen -->
+    <link rel="icon" type="image/png" href="media/moon emoji.png" />  <!-- rel es relación/ href lo cambio por la imagen que quiera, imagen de 200x200 pequeño -->
+    <!-- Metadatos Genéricos -->
+    <meta name="description" content=" el small yet talented dúo que no sabías que necesitabas"> <!-- las *descripción* cpn crtl shift f se reeemplaza todas las descripciones-->
+    <meta name="image" content="*cambiar por una URL de la imagen en línea*">
+    <!-- Metadatos para Schema.org for Google -->
+    <meta itemprop="name" content="ratas de alcantarilla">
+    <meta itemprop="description" content=" el small yet talented dúo que no sabías que necesitabas">
+    <meta itemprop="image" content="*cambiar por una URL de la imagen en línea*">
+    <!-- Metadatos para Twitter -->
+    <meta name="twitter:card" content="summary"> <!-- no se cambia -->
+    <meta name="twitter:title" content="*nombre*">
+    <meta name="twitter:description" content=" el small yet talented dúo que no sabías que necesitabas">
+    <meta name="twitter:image" content="*cambiar por una URL de la imagen en línea*"> <!-- unico tip del profe-->
+    <!-- Metadatos para Open Graph general (Facebook y Pinterest) -->
+    <meta name="og:title" content="*Cat & Rat*">
+    <meta name="og:description" content=" el small yet talented dúo que no sabías que necesitabas">
+    <meta name="og:image" content="*cambiar por una URL de la imagen en línea*">  <!-- image para tener una previlsualizacion cuando se envía vinculo no es favicon-->
+    <meta name="og:locale" content="es_CL"> <!--no se cambia -->
+    <meta name="og:type" content="website"> <!--no se cambia-->
+    <!-- Ahora vinculamos el estilo -->
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+</head>
+<meta name="color:Selection" content="#c6fcfb"/>
+<meta name="color:SelectionText" content="#3fa4a4"/>
+<meta name="color:SelectionBorder" content="#81c4c2"/>
+
+<body>
+    <div id="contenido">
+        <header>
+            <h1>CAT & RAT</h1> <!-- encabezado de primer nivel -->
+            <h2> el small yet talented dúo que no sabías que necesitabas</h2> <!--encabezado de segundo nivel recomendado poner la descripcion de os meta datos-->
+        </header>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">  <!--no modificar -->
+            <source src="media/wasdfghjkl.mp4" type="video/mp4"> <!--aqui cambiamos el video que esta en media, solo en source type no se toca-->
+            <source src="media/video.ogg" type="video/ogg"> <!-- archivo extra para los que no puedan ver mp4-->
+        </video>
+
+        <h3> ¿quién dijo que gatos y ratones no podían ser amigas? </h3> <!-- se modifica -->
+        <div id="somos">
+
+            <div class="dupla primera"> <!-- se modifica -->
+                <h4>🐈CAT</h4>
+                <h5><span>no pain no gain.</span></h5>
+                <p><span>Soy Catalina Céspedes, a.k.a. Cat. Estudiante de diseño, ilustradora y aficionada de la animación, la
+                carpinteria, y las ovejas.</span></p>
+                <address><span><a href="mailto:cmcespedes@uc.cl"><span>email me, let's work!</span></a></address> <!-- primer mail te redirecciona el segundo es el texto visible -->
+            </div>
+
+            <div class="dupla segunda"><!-- se modifica -->
+                <h4>RAT🐀</h4>
+                <h5><span>"ojeras vemos, sueño no sabemos"</span></h5>
+                <p><span>Sólo la Cat me llama Rat, Soy Abril Araneda. Estudiante de diseño, ilustradora y bruja de fin de semana,
+                Libra con luna y ascendiente en Piscis.</span></p>
+                <address><a href="mailto:agaraneda@uc.cl"><span>email me or get hexed</a></span></address>
+            </div>
+
+            <hr />
+        </div><!-- acá cerramos el div id="somos"-->
+
+        <h6>⇣⇣⇣⇣⇣⇣</h6>
+
+        <div id="portafolio">
+
+
+            <!--acá se colocan y organizan las cosas con programación // JAVASCRIPT-->
+
+        </div><!-- acá cerramos el div id="portafolio"-->
+
+        <footer>
+            <p>procesos de producción · sección web · primer semestre ·<a href="https://www.youtube.com/watch?v=FTQbiNvZqaY">hecho con lágrimas</a>· 2019</p>
+        </footer>
+
+    </div><!-- acá abajo cerramos el div id="contenido"-->
+
+    <!-- Lo que sigue SI es PROGRAMACIÓN -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <script>
+        // ESTO SIRVE PARA ARREGLAR CADA ÍTEM DEL PORTAFOLIO COMO ALBAÑILERÍA (MASONRY)
+        window.onload = function() {
+            var container = document.querySelector('#portafolio');
+            var msnry = new Masonry(portafolio, {
+                itemSelector: '.item'
+            });
+        };
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="portafolio.js"></script>
+</body>
+
+</html>
