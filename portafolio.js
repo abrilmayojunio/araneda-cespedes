@@ -41,7 +41,7 @@ var trabajos = [
   title: "🐀 Ilustraciones & Dibujitos",
   about: "Un parsín por ahí y por acá, me manejo en ilustraciones digitales tanto como análogas."
 },{
-  figure: "media/modo diablo equisde.png",
+  figure: "media/modo diablo lol.png",
   title: "🐈 Ilustración by Cat",
   about: "Mis ilutraciones y animaciones, mayoritariamente digitales.",
 }
