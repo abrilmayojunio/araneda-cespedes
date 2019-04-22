@@ -5,9 +5,9 @@ var trabajos = [
     title: "🐈🐀 Frugívoro", //javascript aquí puedo cambiar todo jejeje
     about: "Helados de frutas, verduras y Cucho, un murciélago achorado come fruta. ",
 }, {
-    figure: "media/foto-02.jpg",
-    title: "🐈 Lorem ipsum 02",
-    about: "Nulla pretium non sapien eget fermentum",
+    figure: "media/WAWA.gif",
+    title: "🐈 WAWA",
+    about: "Identidad de marca y diseño de packaging para pañales infantiles.",
 }, {
     figure: "media/reta.gif",
     title: "🐈🐀 RETA",
@@ -29,9 +29,9 @@ var trabajos = [
     title: "🐀 Jop ",
     about: "Línea de ropa de bebés inspirada en perritos de todas las formas y clases.",
 }, {
-    figure: "media/foto-07.jpg",
-    title: "🐈 Lorem ipsum 07",
-    about: "Nulla pretium non sapien eget fermentum",
+    figure: "media/contigo.gif",
+    title: "🐈 Contigo.",
+    about: "Linea de juguetes educativos para salas prescolares en la araucania. Inspirados en materias primas y técnicas de la zona.",
 }, {
   figure: "media/chana.gif",
   title: "🐀 Accesorios Chana",
@@ -41,9 +41,9 @@ var trabajos = [
   title: "🐀 Ilustraciones & Dibujitos",
   about: "Un parsín por ahí y por acá, me manejo en ilustraciones digitales tanto como análogas."
 },{
-  figure: "media/foto-06.jpg",
-  title: "🐈 Lorem ipsum 06",
-  about: "Nulla pretium non sapien eget fer",
+  figure: "media/modo diablo equisde.png",
+  title: "🐈 Ilustración by Cat",
+  about: "Mis ilutraciones y animaciones, mayoritariamente digitales.",
 }
 
 ]
